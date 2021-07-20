@@ -1,0 +1,49 @@
+.inicio-container{
+  height: 100vh;
+  figure{
+    width: 100%;
+    height: 100%;
+
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .opacidad{
+    background-color: $color-alpha-dark;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+      color: $text-color;
+    }
+    p{
+      color: $text-color;
+    }
+    .contactame{
+      background-color: $color-light;
+      color: $color-dark;
+      padding: .5rem 1rem;
+      margin-top: 2rem;
+      font-size: 1.5rem;
+      border: none;
+      border-radius: 15px;
+      text-decoration: none;
+
+      &:hover{
+        background-color: $color-dark;
+        color: $color-light;
+        border: 1px solid $color-light;
+
+      }
+    }
+  }
+}

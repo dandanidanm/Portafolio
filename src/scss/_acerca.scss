@@ -1,0 +1,28 @@
+.acerca-container{
+  padding: $max-height 0;
+
+  article{
+
+    .opacidad{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 1.2rem 1.5rem 1.2rem;
+
+      p{
+        margin-top: 2rem;
+        text-align: justify;
+      }
+    }
+
+    figure{
+    
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}

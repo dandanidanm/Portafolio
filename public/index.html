@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daniel Molina</title>
+  <link rel="stylesheet" href="../src/scss/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+  <header class="header">
+    <div class="header-container">
+      <span class="logo">
+        <a href="https://github.com/dandanidanm">@DANDANIDANM</a>
+      </span>
+      <nav id="navbar" class="menu">
+        <a href="#welcome-section">Inicio</a>
+        <a href="#acerca">Acerca</a>
+        <a href="#projects">Portafolio</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <button class="menu-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+          <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
+        </svg>
+        <svg class="none" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+          <path
+            d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z" />
+        </svg>
+      </button>
+    </div>
+  </header>
+  <main>
+    <section id="welcome-section" class="inicio-container">
+      <figure>
+        <img src="../src/assets/danii.jpg" alt="@dandanidanm">
+      </figure>
+      <div class="opacidad">
+        <h1>Hola!! Soy Daniel Molina</h1>
+        <p>Soy Web Developer.</p>
+        <a href="#contacto" class="contactame">Contactame</a>
+      </div>
+    </section>
+    <section id="acerca"
+    class="acerca-container">
+      <article>
+        <div class="opacidad">
+          <h2>Hola! soy Daniel</h2>
+          <i>Te cuento un poco sobre mi..</i>
+          <p>Soy un joven Venezolano, actualmente viviendo en Colombia. Desde muy temprana edad comenzó mi pasión por las computadoras y todo lo que habitaba en ellas, especialmente los videojuegos, desde que las empecé a usar por primera vez tuve una gran destreza para jugar, siempre lo vi como un hobby, pero al pasar los años me di cuenta que soy muy afortunado de haber nacido en esta era digital, ya que hoy tienes acceso a todo y puedes disfrutar la vida desde la comodidad de la casa, trabajando en lo que más te gusta y disfrutando a los seres queridos. Por ello me considero una persona autodidacta y al ir estudiando llegue a la programación web, conocí a varias personas que me orientaron en este maravilloso mundo. Actualmente soy un Front-end Developer con muchas ganas de seguir aprendiendo conocimientos para así lograr mi sueño de crear mi propio videojuego.</p>
+        </div>
+        <figure>
+          <img src="../src/assets/dann.jpg" alt="">
+        </figure>
+      </article>
+    </section>
+    <section id="projects" class="portafolio-container">
+      <h2 class="project-tile">Portafolio</h2>
+      <article class="proyecto">
+        <h3>Pagina Tributo</h3>
+          <a href="https://dandanidanm.github.io/Pagina-Tributo/" target="_blank">
+            <img src="../src/assets/proyecto1.png" alt="pagina tributo de linkinpark">
+          </a>
+      </article>
+      <article class="proyecto">
+        <h3>Formulario</h3>
+          <a href="https://dandanidanm.github.io/prueba-formulario/" target="_blank">
+            <img src="../src/assets/proyecto2.png" alt="prueba-formulario">
+          </a>
+      </article>
+      <article class="proyecto">
+        <h3>Producto landing page</h3>
+          <a href="https://dandanidanm.github.io/Product-Landing-page/" target="_blank">
+            <img src="../src/assets/proyecto3.png" alt="Product-Landing-page">
+          </a>
+      </article>
+      <article class="proyecto">
+        <h3>Documentacion Tecnica</h3>
+          <a href="https://dandanidanm.github.io/documentacion-tecnica/" target="_blank">
+            <img src="../src/assets/proyecto4.png" alt="documentacion-tecnica">
+          </a>
+      </article>
+      <article class="proyecto">
+        <h3>Daily Bits</h3>
+          <a href="https://dandanidanm.github.io/Daily-Bits/" target="_blank">
+            <img src="../src/assets/proyecto5.png" alt="Daily-Bits">
+          </a>
+      </article>
+    </section>
+  </main>
+  <footer id="contacto" class="footer">
+    <form action="https://formspree.io/f/mbjqapry" method="POST" class="form">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" placeholder=" Ingresa tu nombre" required>
+      <label for="email">Correo:</label>
+      <input type="email" id="email" name="email" placeholder=" Ingresa tu email" required>
+      <label for="comentario">Comentarios:</label>
+      <textarea id="comentario" name="comentario" cols="30" rows="10" placeholder=" Agrega Comentario.."></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <div class="red-social">
+      <a id="profile-link" href="https://github.com/dandanidanm" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+      <a href="https://www.linkedin.com/in/dandanidanm/" target="_blank"><i class="fab fa-linkedin"></i>Linkedin</a>
+      <a href="https://www.facebook.com/dandanidanm/" target="_blank"><i class="fab fa-facebook"></i>Facebook</a>
+      <a href="https://www.instagram.com/dandanidanm/" target="_blank"><i class="fab fa-instagram"></i>Instagram</a>
+    </div>
+    <div class="copy">
+      <i>Copyright © <a href="https://github.com/dandanidanm" target="_blank" rel="noopener noreferrer">@dandanidanm</a> | All right reserved.</i>
+    </div>
+
+  </footer>
+  <script type="module" src="../src/js/main.js"></script>
+  <script src="https://kit.fontawesome.com/9884cb8ffb.js" crossorigin="anonymous"></script>
+</body>
+</html>
