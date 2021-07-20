@@ -4,20 +4,25 @@
   article{
 
     .opacidad{
+      max-width: 360px;
       width: 100%;
+      height: 100%;
       display: flex;
       flex-direction: column;
-      align-items: center;
+      justify-content: center;
+      align-items: center; 
       padding: 0 1.2rem 1.5rem 1.2rem;
-
+      
       p{
+        max-width: 360px;
         margin-top: 2rem;
         text-align: justify;
+
       }
     }
 
     figure{
-    
+      max-height: 500px;
       img{
         width: 100%;
         height: 100%;
