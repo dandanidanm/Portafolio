@@ -1,5 +1,5 @@
 # Portafolio
-# Pagina realizada por Daniel Molina.
+# Pagina realizada por Daniel Molina mejorando cada dia...
 Para crear esta pagina se uso lo siguientes:
 - HTML
 - CSS-SASS
